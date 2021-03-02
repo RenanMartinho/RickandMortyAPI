@@ -1,0 +1,50 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+    background-color:#23C7B5;
+}
+
+.card{
+    max-width: 300px;
+    padding: 20px;
+    float: left; 
+}
+
+
+
+.search input {
+    margin-right: .5em;
+  }
+  
+  @media (max-width: 600px) {
+    .search input {
+      margin-right: 0;
+      margin-bottom: .5em;
+    }
+  
+    .search input,
+    .search button {
+      width: 100%;
+    }
+  }
+
+  table {font-family: arial, sans-serif;}
+
